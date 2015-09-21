@@ -1,0 +1,21 @@
+{
+    "name": "paulvl/gps",
+    "description": "Gps library for Laravel PHP framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Vidal",
+            "email": "iam@paulvl.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gps\\": "src/"
+        }
+    }
+}
